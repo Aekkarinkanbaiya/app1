@@ -2,7 +2,7 @@ import React from 'react'
 import { userContext } from './context'
 
 export default function Content(){
-    let user = React.userContext(userContext)
+    let user = React.useContext(userContext)
 
     const contentStyle = {
         backgroundColor:'#ddd',
@@ -12,7 +12,7 @@ export default function Content(){
     }
     return(
         <div style={contentStyle}>
-            Hello{user}
+            Hello {user}
         </div>
     )
 }
