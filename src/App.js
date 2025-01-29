@@ -1,14 +1,14 @@
 import React from 'react'
-import { EventData2 } from './event-data';
-import RefsFunc from './refs-func';
-import Messagebox from './state-func';
 import { userContext } from './context';
-import Content from './context-content';
+import Content2 from './context-content2';
+import Header2 from './context-header2';
 
 function App() {
+  let [user,setUser] = React.useState('')
   return (
-    <userContext.Provider value={'Tom Jerry'}>
-      <Content/>
+    <userContext.Provider value={[user,setUser]}>
+      <Header2/>
+      <Content2/>
     </userContext.Provider>
   )
 }
