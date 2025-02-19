@@ -7,7 +7,10 @@
     "html-webpack-plugin": "^5.6.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-r": "^2.0.0-rc02",
+    "react-router-dom": "^7.2.0",
     "react-scripts": "5.0.1",
+    "router-dom": "^3.0.3",
     "web-vitals": "^4.2.4"
   },
   "scripts": {
